@@ -14,5 +14,7 @@ interface iAccountStatementDbController {
     
     public function executeDataImportIncoming();
     
+    public function setData($data);
+    
 }
 
